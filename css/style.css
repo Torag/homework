@@ -1,0 +1,41 @@
+body {
+	background: url('../images/Torag.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-radius:5px
+}
+
+#container {
+	background: royalblue;
+	width: 550px;
+	color: white;
+	padding: 10px;
+	border-radius:5px
+}
+
+h1{
+	font-family: 'Zen Tokyo Zoo', cursive;
+	text-align: right;
+	font-size:70px ;
+	}
+
+h2{
+	background: white;
+	color: royalblue;
+	font-family: 'Tourney', cursive;
+	text-align: center;
+	font-size: 25px;
+	padding: 5px;
+	border-radius:5px ;
+}
+
+   p{
+   	text-align: justify;
+   	font-size: 20px;
+   	font-family: 'Roboto Mono', monospace;
+   }                
